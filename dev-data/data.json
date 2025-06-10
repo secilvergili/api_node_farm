@@ -1,0 +1,46 @@
+[
+          {
+                    "id":0,
+                    "productName":"Peynir",
+                    "image":"🧀",
+                    "from": "Portekiz",
+                    "nutrients":"A vitamin, Kalsiyum, Protein",
+                    "quantity": "250gr",
+                    "price": "10.00",
+                    "organic": "true",
+                    "description":"Keçi sütünden üretilen, hafif tuzlu ve kremamsı bir peynir."
+          },
+          {
+                    "id":1,
+                    "productName":"Zeytin",
+                    "image":"🫒",
+                    "from": "İspanya",
+                    "nutrients":"Demir, E vitamini, Antioksidanlar",
+                    "quantity": "500gr",
+                    "price": "15.00",
+                    "organic": "true",
+                    "description":"Çeşitli zeytin türlerinden yapılan, sağlıklı yağlar içeren bir atıştırmalık."
+          },
+          {
+                    "id":2,
+                    "productName":"Zeytinyağı",
+                    "image":"🫒🫒",
+                    "from": "İtalya",
+                    "nutrients":"Omega-3, E vitamini, Antioksidanlar",
+                    "quantity": "500ml",
+                    "price": "30.00",
+                    "organic": "true",
+                    "description":"Soğuk sıkım yöntemiyle elde edilen, zeytinlerin en saf hali."
+          },
+          {
+                    "id":3,
+                    "productName":"Fındık",
+                    "image":"🌰",
+                    "from": "Türkiye",
+                    "nutrients":"E vitamini, Magnezyum, Protein",
+                    "quantity": "200gr",
+                    "price": "20.00",
+                    "organic": "true",
+                    "description":"Çiğ veya kavrulmuş olarak tüketilebilen, besleyici bir kuruyemiş."
+          }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "api_node_farm",
+  "version": "1.0.0",
+  "description": "demonstrates a simple API server using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "server"
+  ],
+  "author": "secilvergili",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

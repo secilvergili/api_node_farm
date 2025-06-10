@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>{%PRODUCTNAME%} /// NODEjs FARM</title>
+
+     <style>
+
+*,
+*::before,
+*::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: inherit;
+}
+
+html {
+     font-size: 10px;
+     box-sizing: border-box;
+}
+
+body {
+     padding: 20px 40px 10px;
+     background: linear-gradient(to bottom right, #f6f607, #0ad844);
+     min-height: 100vh;
+     font-family: sans-serif;
+     line-height: 1.7;
+}
+
+h1 {
+     font-size: 4rem;
+     color: white;
+     transform: skewY(-3deg);
+     text-align: center;
+     position: relative;
+     word-spacing: 3px;
+
+}
+
+.container {
+     width: 100%;
+     margin: 0 auto;
+}
+
+.cards-container {
+     margin-top: 8rem;
+     }
+
+.card {
+     background-color: white;
+     box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.1);
+     margin-bottom: 5rem;
+     display: flex;
+     transform: skewX(-10deg);
+     padding: 0.5rem;
+     }
+
+.card_emoji {
+          font-size: 5.5rem;
+          line-height: 1.2;
+          padding: 1.5rem 6rem 1rem 2rem;
+          transform: skewX(10deg);
+          letter-spacing: -4rem;
+     }
+
+.card_title-box {
+          background: linear-gradient(to bottom, #9be15d, #00e3ae);
+          margin-right: auto;
+          display: flex;
+          align-items: center;
+          padding: 0 3rem;
+     }
+
+     .card_details {
+          display: flex;
+     }
+
+     .card_detail-box {
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          border-right: 1px solid #ddd;
+     }
+
+     .card_detail-box:last-child {
+          border: none;
+     }
+
+     .card_detail {
+          font-weight: 400;
+          font-size: 1.8rem;
+          transform: skewX(10deg);
+          padding: 0 1.75rem;
+     }
+
+     .card_detail--organic {
+          font-weight: 900;
+          text-transform: uppercase;
+          font-size: 1.9rem;
+          background: linear-gradient(to right, #9be15d, #00e3ae);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+     }
+
+     .card_detail--price {
+          font-weight: 900;
+          font-size: 1.9rem;
+     }
+     .not-organic {
+          display: none;
+     }
+
+     .card_link:link,
+     .card_link:visited {
+          flex: 0 0 auto;
+          background-color: #79e17b;
+          color: #fff;
+          font-size: 1.6rem;
+          font-weight: 900;
+          text-transform: uppercase;
+          text-decoration: none;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 2rem;
+          transition: 0.3s all;
+     }
+     .card_link:hover,
+     .card_link:active {
+          background-color: #9be15d;
+     }
+
+     </style>
+</head>
+
+<body>
+     <div class="container">
+          <h1>🍇🍓 NODEjs FARM 🍋🍒 </h1>
+
+          <figure class="product">
+               <div class="product_organic {%NOT_ORGANIC%}">
+                    <h5>Organic</h5>
+               </div>
+               <a href="/overview" class="product"></a>
+
+               <div class="product_hero">
+                    <span class="product_emoji product_emoji--1">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--2">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--3">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--4">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--5">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--6">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--7">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--8">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--9">{%IMAGE%}</span>
+                    <span class="product_emoji product_emoji--10">{%IMAGE%}</span>
+               </div>
+               
+               <h2 class="product_name">{%PRODUCTNAME%}</h2>
+
+               <p class="product_details">
+                   <p><span class="emoji-left"> From {%FROM%}</span></p>
+                   <p><span class="emoji-left"> {%NUTRIENTS%} </span></p>
+                   <p><span class="emoji-left"> {%QUANTITY%} </span></p>
+                   <p><span class="emoji-left"> {%PRICE%} </span></p>
+               </div>
+
+               <a href="" class="product_link">
+                    <span class="emoji-left"></span>
+                    <span>Add to shopping cart ({%PRICE%})</span>
+               </a>
+         <p class="product_description">{%DESCRIPTION%}</p>
+          </figure>
+     </div>
+</body>
+
+</html>
